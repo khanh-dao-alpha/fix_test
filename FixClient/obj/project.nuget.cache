@@ -1,19 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "4ZXpe0JkdkY=",
+  "dgSpecHash": "3TIVEhbG1Xc=",
   "success": true,
-  "projectFilePath": "/home/khanh.dao/Projects/IntegrationTest/FixClient/FixClient.csproj",
+  "projectFilePath": "/home/simonjl/RiderProjects/fix_test/FixClient/FixClient.csproj",
   "expectedPackageFiles": [
-    "/home/khanh.dao/.nuget/packages/epam.fixantenna.dialects/1.2.3/epam.fixantenna.dialects.1.2.3.nupkg.sha512",
-    "/home/khanh.dao/.nuget/packages/epam.fixantenna.netcore/1.2.3/epam.fixantenna.netcore.1.2.3.nupkg.sha512",
-    "/home/khanh.dao/.nuget/packages/microsoft.extensions.logging.abstractions/2.1.1/microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
-    "/home/khanh.dao/.nuget/packages/nlog/5.4.0/nlog.5.4.0.nupkg.sha512",
-    "/home/khanh.dao/.nuget/packages/quartz/3.13.1/quartz.3.13.1.nupkg.sha512",
-    "/home/khanh.dao/.nuget/packages/system.collections.immutable/9.0.1/system.collections.immutable.9.0.1.nupkg.sha512",
-    "/home/khanh.dao/.nuget/packages/system.text.json/9.0.1/system.text.json.9.0.1.nupkg.sha512",
-    "/home/khanh.dao/.nuget/packages/microsoft.netcore.app.ref/9.0.2/microsoft.netcore.app.ref.9.0.2.nupkg.sha512",
-    "/home/khanh.dao/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.2/microsoft.aspnetcore.app.ref.9.0.2.nupkg.sha512",
-    "/home/khanh.dao/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.2/microsoft.netcore.app.host.linux-x64.9.0.2.nupkg.sha512"
+    "/home/simonjl/.nuget/packages/epam.fixantenna.dialects/1.2.3/epam.fixantenna.dialects.1.2.3.nupkg.sha512",
+    "/home/simonjl/.nuget/packages/epam.fixantenna.netcore/1.2.3/epam.fixantenna.netcore.1.2.3.nupkg.sha512",
+    "/home/simonjl/.nuget/packages/microsoft.extensions.logging.abstractions/2.1.1/microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "/home/simonjl/.nuget/packages/nlog/5.4.0/nlog.5.4.0.nupkg.sha512",
+    "/home/simonjl/.nuget/packages/quartz/3.13.1/quartz.3.13.1.nupkg.sha512",
+    "/home/simonjl/.nuget/packages/system.collections.immutable/9.0.1/system.collections.immutable.9.0.1.nupkg.sha512",
+    "/home/simonjl/.nuget/packages/system.text.json/9.0.1/system.text.json.9.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -11,22 +11,22 @@ namespace Client
 	{
 		var sessionList = new List<IFixSession>();
 		
-		var sessions = SessionParametersBuilder.BuildSessionParametersList("./fixclient.properties");
+		var sessions = SessionParametersBuilder.BuildInitiatorSessionParametersList("./fixclient.properties");
 		
-		foreach (var kvp in sessions)
+		foreach (var (sessionId, details) in sessions)
 		{
-			var sessionId = kvp.Key;
-			var details = kvp.Value;
-		
-			Console.WriteLine($"=== Session: {sessionId} ===");
-		
+            Console.WriteLine($"=== Session: {sessionId} ===");
+            Console.WriteLine($"SenderCompId: {details.SenderCompId}");
+            Console.WriteLine($"TargetCompId: {details.TargetCompId}");
+
 			var session = details.CreateInitiatorSession();
 			sessionList.Add(session);
 			session.SetFixSessionListener(new MyFixSessionListener(session));
 		
 			session.Connect();
 		}
-		
+
+        Console.WriteLine("sending message");
 		
 		foreach (var session in sessionList)
 		{

@@ -896,24 +896,25 @@
     ]
   },
   "packageFolders": {
-    "/home/khanh.dao/.nuget/packages/": {}
+    "/home/simonjl/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/khanh.dao/Projects/IntegrationTest/FixServerTest/FixServerTest.csproj",
+      "projectUniqueName": "/home/simonjl/RiderProjects/fix_test/FixServerTest/FixServerTest.csproj",
       "projectName": "FixServerTest",
-      "projectPath": "/home/khanh.dao/Projects/IntegrationTest/FixServerTest/FixServerTest.csproj",
-      "packagesPath": "/home/khanh.dao/.nuget/packages/",
-      "outputPath": "/home/khanh.dao/Projects/IntegrationTest/FixServerTest/obj/",
+      "projectPath": "/home/simonjl/RiderProjects/fix_test/FixServerTest/FixServerTest.csproj",
+      "packagesPath": "/home/simonjl/.nuget/packages/",
+      "outputPath": "/home/simonjl/RiderProjects/fix_test/FixServerTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/khanh.dao/.nuget/NuGet/NuGet.Config"
+        "/home/simonjl/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -932,7 +933,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -954,26 +955,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[9.0.2, 9.0.2]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[9.0.2, 9.0.2]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[9.0.2, 9.0.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.107/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -14,6 +14,7 @@ namespace Server
 	  
 	    server.Start(); 
 
+        Console.WriteLine("Press ENTER to exit the program.");
 		Console.Read(); 
 		server.Stop(); 
 	}
@@ -38,7 +39,7 @@ namespace Server
 	{
 	  public void OnSessionStateChange(SessionState sessionState)
 	  {
-		Console.WriteLine("Session state: " + sessionState);
+		Console.WriteLine($"Session state: {sessionState} {session.Parameters.SessionId}");
 
 		if (sessionState == SessionState.Disconnected)
 		{
