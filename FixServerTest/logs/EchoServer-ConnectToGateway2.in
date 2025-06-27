@@ -1,0 +1,8 @@
+20250627 12:59:37.495 - 8=FIX.4.49=8335=A34=5349=ConnectToGateway256=EchoServer52=20250627-05:59:37.39798=0108=3010=215
+20250627 12:59:37.513 - 8=FIX.4.49=12135=534=5449=ConnectToGateway256=EchoServer52=20250627-05:59:37.51258=Incoming seq number 1 is less then expected 4610=177
+20250627 12:59:45.087 - 8=FIX.4.49=8335=A34=5549=ConnectToGateway256=EchoServer52=20250627-05:59:45.07298=0108=3010=206
+20250627 12:59:45.094 - 8=FIX.4.49=12135=534=5649=ConnectToGateway256=EchoServer52=20250627-05:59:45.09358=Incoming seq number 4 is less then expected 4610=185
+20250627 13:15:06.375 - 8=FIX.4.49=8335=A34=6149=ConnectToGateway256=EchoServer52=20250627-06:15:06.27998=0108=3010=202
+20250627 13:15:06.390 - 8=FIX.4.49=12135=534=6249=ConnectToGateway256=EchoServer52=20250627-06:15:06.38958=Incoming seq number 7 is less then expected 4610=183
+20250627 13:15:25.763 - 8=FIX.4.49=8335=A34=6349=ConnectToGateway256=EchoServer52=20250627-06:15:25.74998=0108=3010=207
+20250627 13:15:25.767 - 8=FIX.4.49=12235=534=6449=ConnectToGateway256=EchoServer52=20250627-06:15:25.76658=Incoming seq number 10 is less then expected 4610=228

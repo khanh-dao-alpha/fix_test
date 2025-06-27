@@ -1,0 +1,144 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "FixClient/1.0.0": {
+        "dependencies": {
+          "Epam.FixAntenna.NetCore": "1.2.3",
+          "FixServerTest": "1.0.0"
+        },
+        "runtime": {
+          "FixClient.dll": {}
+        }
+      },
+      "Epam.FixAntenna.Dialects/1.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/Epam.FixAntenna.Dialects.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "Epam.FixAntenna.NetCore/1.2.3": {
+        "dependencies": {
+          "Epam.FixAntenna.Dialects": "1.2.3",
+          "NLog": "5.4.0",
+          "Quartz": "3.13.1",
+          "System.Collections.Immutable": "9.0.1",
+          "System.Text.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Epam.FixAntenna.NetCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "NLog/5.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.4.0.3182"
+          }
+        }
+      },
+      "Quartz/3.13.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1"
+        },
+        "runtime": {
+          "lib/net6.0/Quartz.dll": {
+            "assemblyVersion": "3.13.1.0",
+            "fileVersion": "3.13.1.0"
+          }
+        }
+      },
+      "System.Collections.Immutable/9.0.1": {},
+      "System.Text.Json/9.0.1": {},
+      "FixServerTest/1.0.0": {
+        "dependencies": {
+          "Epam.FixAntenna.NetCore": "1.2.3"
+        },
+        "runtime": {
+          "FixServerTest.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FixClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Epam.FixAntenna.Dialects/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QlG8Khtt29JENgE1Mys/E5o5RGmIQMvtASIKLVwVShJlQQyPA1zYkuL1Ab+JfFZpcYZUOrFrYAW17tS4VwdOnA==",
+      "path": "epam.fixantenna.dialects/1.2.3",
+      "hashPath": "epam.fixantenna.dialects.1.2.3.nupkg.sha512"
+    },
+    "Epam.FixAntenna.NetCore/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wP026QWHFM/CQZqhQGcVK3j8/yXEw5osiu41CePoMmUiHEybJeX5CJN3lBO+QxmBT8JqCy+Warq/CZ0YXMHkYg==",
+      "path": "epam.fixantenna.netcore/1.2.3",
+      "hashPath": "epam.fixantenna.netcore.1.2.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XRzK7ZF+O6FzdfWrlFTi1Rgj2080ZDsd46vzOjadHUB0Cz5kOvDG8vI7caa5YFrsHQpcfn0DxtjS4E46N4FZsA==",
+      "path": "microsoft.extensions.logging.abstractions/2.1.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512"
+    },
+    "NLog/5.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LwMcGSW3soF3/SL68rlJN3Eh3ktrAPycC3zZR/07OYBPraZUu0bygEC7kIN10lUQgMXT4s84Fi1chglGdGrQEg==",
+      "path": "nlog/5.4.0",
+      "hashPath": "nlog.5.4.0.nupkg.sha512"
+    },
+    "Quartz/3.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0S4/gYb/FRQfek65OPAmszbdEmtc4Fq/jSeA5XFnvMIjYL9Zr8g9jWoKneEFzAFJGlESjFULtaUFzValHvqu4A==",
+      "path": "quartz/3.13.1",
+      "hashPath": "quartz.3.13.1.nupkg.sha512"
+    },
+    "System.Collections.Immutable/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qt4+ClsZYKzar/Rw1zbt0t9iuBUCLVNsjXicEuVQyKL7143CwhWzI2gTwzz8AhSaFYVHnpcb8SBGA+zaY4weUg==",
+      "path": "system.collections.immutable/9.0.1",
+      "hashPath": "system.collections.immutable.9.0.1.nupkg.sha512"
+    },
+    "System.Text.Json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eqWHDZqYPv1PvuvoIIx5pF74plL3iEOZOl/0kQP+Y0TEbtgNnM2W6k8h8EPYs+LTJZsXuWa92n5W5sHTWvE3VA==",
+      "path": "system.text.json/9.0.1",
+      "hashPath": "system.text.json.9.0.1.nupkg.sha512"
+    },
+    "FixServerTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
